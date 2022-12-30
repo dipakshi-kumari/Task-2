@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+        Body {
+            fornt-family:calibri,Helvetica,sans-serif;
+            background-color: pink;
+
+        }
+        Button{
+            background-color: #4CAF50;
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0px;
+            border: none;
+            cursor: pointer;
+
+        }
+        form{
+            border:3px solid black;
+
+        }
+        input[type=text],input[type=password]{
+            width:100%;
+            margin: 8px 0;
+            padding: 12px 20px;
+            display: inline-block;
+            border: 2px solid green;
+            box-sizing:border-box;
+
+        }
+
+    </style>
+</head>
+<body>
+    <center><h1><b> Student Login From </b></h1></center>
+<form>
+    <div>
+
+    <label><b>Username</b></label>
+    <input type="text" name="Username" id=""placeholder="Enter Username">
+    <p>
+    <lable><b>password</b></lable>
+    <input type="password" name="password" id"" placeholder="Enter password">
+    </p>
+    <button type="submit">Login</button>
+    <input type="checkbox" name="remember">Remember 
+    <button type="button" class="cancelbtn">Cancel</button> 
+    Forgot <a href="#">password?</a>
+    <label><br><b>Gender</b></br></label>
+    <input type="radio" name="gender" id="gender" value="Male"/>Male
+    <br>
+    <input type="radio" name="gender" id="gender" value="Female"/>Female
+
+
+    </div>
+
+</form>
+    
+</body>
+</html>
